@@ -14,3 +14,35 @@ body {
     padding: 0 20px;
     overflow: hidden;
 }
+
+header {
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+
+}
+
+/* Container holds the logo on the left and links on the right */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left, links right */
+  align-items: ;            /* Perfectly centers items vertically */
+  padding: 15px 30px;
+  background-color: #333;
+}
+
+/* Turns the vertical list into a clean horizontal row */
+.nav-links {
+  display: flex;
+  gap: 20px;                      /* Automatically creates space between links */
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
