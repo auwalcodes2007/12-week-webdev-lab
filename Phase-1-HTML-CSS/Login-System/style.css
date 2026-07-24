@@ -22,6 +22,7 @@ body::before, body::after {
     border-radius: 50%;
     background: linear-gradient(45deg, #1e40af, #3b82f6);
     filter: blur(80px);
+    opacity: 0.5;
     z-index: 1;
     animation: floatBackground 4s infinite 2s ease-in-out;
 }
