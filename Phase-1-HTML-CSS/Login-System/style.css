@@ -153,7 +153,7 @@ body::after {
 
 .forget-password {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;;
     align-items: center;
     margin-bottom: 25px;
     color: rgba(255, 255, 255, 0.7);
@@ -163,6 +163,11 @@ body::after {
 .forget-password label {
     display: flex;
     align-items: center;
-    gap:6px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.forget-password input[type="checkbox"] {
+    accent-color: #3b82f6;
     cursor: pointer;
 }
