@@ -171,3 +171,14 @@ body::after {
     accent-color: #3b82f6;
     cursor: pointer;
 }
+
+.forget-password a {
+    color: #3b82f6;
+    text-decoration: none;
+    transform: color 0.2s;
+}
+
+.forget-password a:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
