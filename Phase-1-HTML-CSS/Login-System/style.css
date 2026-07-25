@@ -21,10 +21,10 @@ body::before, body::after {
     width: 300px;
     border-radius: 50%;
     background: linear-gradient(45deg, #1e40af, #3b82f6);
-    /* filter: blur(80px);
-    opacity: 0.5; */
+    filter: blur(80px);
+    opacity: 0.5;
     z-index: 1;
-    animation: floatBackground 4s infinite 2s alternate ease-in-out;
+    animation: floatBackground 12s infinite 2s alternate ease-in-out;
 }
 
 body::before {
@@ -50,5 +50,14 @@ body::after {
 
 .login-container {
     position: relative;
+    width: 400px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 12px 45px rgba(0, 0, 0, 0.3);
+    
+
     z-index: 10;
 }
