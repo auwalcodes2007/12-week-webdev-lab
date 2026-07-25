@@ -48,6 +48,7 @@ body::after {
     }
 }
 
+/* Card container with interactive depth */
 .login-container {
     position: relative;
     width: 400px;
@@ -57,7 +58,17 @@ body::after {
     border-radius: 20px;
     backdrop-filter: blur(16px);
     box-shadow: 0 12px 45px rgba(0, 0, 0, 0.3);
-    
-
+    transition: 
+        transform 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+        border-color 0.4s,
+        box-shadow 0.4s;
     z-index: 10;
 }
+
+/* Subtle lift effect on login-container hover from transition properties */
+.login-container:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 30px 60px rgba(59, 130, 246, 0.15);
+}
+
