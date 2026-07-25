@@ -148,3 +148,15 @@ body::after {
     color: #3b82f6;
     font-size: 12px;
 }
+
+/* Utility Elements */
+
+.forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
