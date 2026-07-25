@@ -214,7 +214,23 @@ body::after {
     transform: scale(0.98);
 }
 
+/* Bottom Alternate Links */
 
 .register-link {
     margin-top: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #ec4899;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.register-link a:hover {
+    color: #f472b6;
+    text-decoration: underline;
 }
