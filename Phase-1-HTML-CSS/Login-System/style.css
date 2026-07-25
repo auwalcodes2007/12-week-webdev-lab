@@ -138,3 +138,13 @@ body::after {
 
 /* Float the label up permanently when input contains text or is focused */
 
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+    top: -10px;
+    left: 10px;
+    padding: 0 8px;
+    border-radius: 4px;
+    background: #0f172a;
+    color: #3b82f6;
+    font-size: 12px;
+}
