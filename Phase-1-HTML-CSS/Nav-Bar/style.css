@@ -1,0 +1,27 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-section {
+    background: 
+        radial-gradient(ellipse 50% 80% at 10% 30%, rgba(124, 58, 237, 0.4), rgba(168, 85, 247, 0.25), transparent 70%),
+        radial-gradient(ellipse 50% 80% at 90% 30%, rgba(124, 58, 237, 0.4), rgba(168, 85, 247, 0.25), transparent 70%),
+        #080412;
+    min-height: 100vh;
+    width: 100%;
+}
