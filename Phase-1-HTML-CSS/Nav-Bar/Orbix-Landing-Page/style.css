@@ -23,5 +23,9 @@ a {
     background: #0b0b10 linear-gradient(to bottom, #11111a, #07070a);
 }
 
-
- 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 48px;
+}
