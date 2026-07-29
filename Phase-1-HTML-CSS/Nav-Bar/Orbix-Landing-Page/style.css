@@ -36,4 +36,8 @@ a {
     letter-spacing: -0.5px;
 }
 
-
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
