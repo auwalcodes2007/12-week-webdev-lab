@@ -54,3 +54,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.h1 {
+    font-size: 3.5rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
