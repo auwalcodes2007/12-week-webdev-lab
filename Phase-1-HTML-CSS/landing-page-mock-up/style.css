@@ -82,10 +82,20 @@ h1 {
     background-color: transparent;
     color: #fff;
     border: 2px solid #fff;
-    
 }
 
 .btn-primary {
     background-color: #00d2ff;
     color: #1a1a1a;
+}
+
+.btn-primary:hover {
+    background-color: #00b8e6;
+    transform: translateY(-2px);
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+    transform: translateY(-2px);
 }
