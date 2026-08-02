@@ -225,4 +225,10 @@ header {
     justify-content: center;
     gap: 16px;            /* Reduce gap on small mobile screens */
     }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
 }
