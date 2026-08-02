@@ -128,6 +128,7 @@ header {
 
 .services-section h2 {
     margin-bottom: 40px;
+    color: #00d2ff;
 }
 
 .card-container {
@@ -147,28 +148,31 @@ header {
     transition: 
         transform 0.3s ease,
         box-shadow 0.3s ease;
+    border: 1px solid #333;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.6)
+    box-shadow: 0 8px 15px rgba(0,0,0,0.6);
+    border-color: #00d2ff;
 }
 
 .card h3 {
-    color: #181818;
+    color: #f0f0f0;
     margin-bottom: 12px;
 
 }
 
 .card p {
-    color: #666;
+    color: rgba(255, 255, 255, 0.7);
     line-height: 1.6;
 
 }
 
 .card-link {
-    accent-color: #00d2ff;
+    color: #00d2ff;
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
+    margin-top: 16px;
 }
