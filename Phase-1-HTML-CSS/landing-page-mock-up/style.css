@@ -163,13 +163,11 @@ header {
 .card h3 {
     color: #f0f0f0;
     margin-bottom: 12px;
-
 }
 
 .card p {
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.6;
-
 }
 
 .card-link {
@@ -198,6 +196,11 @@ header {
     display: flex;
     gap: 20px;
     list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #00d2ff;
 }
 
 /* Add mobile responsiveness */
