@@ -195,4 +195,10 @@ header {
         flex-direction: column;
         gap: 16px;
     }
+
+    .nav-links {
+    flex-wrap: wrap;       /* Allows items to wrap onto a new line if screen is narrow */
+    justify-content: center;
+    gap: 16px;            /* Reduce gap on small mobile screens */
+    }
 }
