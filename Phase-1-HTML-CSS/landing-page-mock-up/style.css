@@ -120,7 +120,7 @@ header {
 }
 
 .services-section {
-    background: #f8f9fa;
+    background: #181818;
     padding: 80px 24px;
     margin-bottom: 40px;
     text-align: center;
@@ -136,4 +136,15 @@ header {
     gap: 24px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.card {
+    background: #242424;
+    color: #666;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
