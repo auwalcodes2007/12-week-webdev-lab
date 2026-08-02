@@ -194,6 +194,11 @@ header {
     max-width: 1200px;
 }
 
+.footer-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
 
 /* Add mobile responsiveness */
 @media (max-width: 768px) {
