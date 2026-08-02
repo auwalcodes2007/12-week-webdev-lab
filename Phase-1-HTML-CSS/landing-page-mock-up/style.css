@@ -190,6 +190,8 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
+    color: #f0f0f0;
+
 }
 
 .footer-links {
