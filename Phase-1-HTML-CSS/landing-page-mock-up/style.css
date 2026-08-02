@@ -120,7 +120,7 @@ header {
 }
 
 .services-section {
-    /* background: #181818; */
+    background: #181818;
     padding: 80px 24px;
     margin-bottom: 40px;
     text-align: center;
@@ -152,4 +152,23 @@ header {
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.6)
+}
+
+.card h3 {
+    color: #181818;
+    margin-bottom: 12px;
+
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+
+}
+
+.card-link {
+    accent-color: #00d2ff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
 }
